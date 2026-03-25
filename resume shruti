@@ -1,0 +1,12 @@
+git init
+
+sudo git config --global user.name "Shruti-patil-s"
+sudo git config --global user.email "shrutipatil3913@gmail.com"
+sudo git config --list
+
+git remote add origin https://github.com/Shruti-patil-s/resume-shruti.git
+git remote set-url origin https://Shruti-patil-s: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@github.com/Shruti-patil-s/resume.git
+
+git add index.html
+git commit -m "Initial resume page: HTML5 structure"
+git push origin main --force
